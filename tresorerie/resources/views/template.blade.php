@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Trésorerie</title>
-    <link rel="stylesheet" href="{{asset('dataTables/css/dataTables.v1.13.4-custom.min.css')}}">
     @vite('resources/css/app.scss')
     @yield('style')
     @yield('head')
@@ -33,7 +32,6 @@
     @vite('resources/js/app.js')
     @yield('pagescripts')
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="{{asset('dataTables/js/dataTables.v1.13.2.min.js')}}"></script>
 </body>
 
 </html>
